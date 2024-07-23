@@ -32,6 +32,37 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+<style>
+  .swiper-slide {
+    position: relative;
+  }
+  
+  .portfolio-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    color: #3498DB;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+  
+  .book-table-img {
+    height: 300px; /* Adjust as needed */
+    background-size: cover;
+    background-position: center;
+    display: block;
+  }
+</style>
+
+
 </head>
 
 <body>
@@ -41,17 +72,17 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center">
-          <a href="mailto:contact@example.com">softnovate-solutions@gmail.com</a>
+          <a href="mailto:softnovate-solutions@gmail.com">softnovate-solutions@gmail.com</a>
         </i>
         <i class="bi bi-phone d-flex align-items-center ms-4">
-          <span>+254 720 934 290</span>
+          <span>+254 788 641 585</span>
         </i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="https://x.com/softnovate_" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" target="_blank"  class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/softnovatesolutions?igsh=ZHo4YnZ0NmlhazFm" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" target="_blank"  class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
     </div>
   </section><!-- End Top Bar -->
@@ -67,9 +98,8 @@
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Products</a></li>
           <li><a href="#testimonials">Reviews</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          
         </ul>
       </nav><!-- .navbar -->
 
@@ -99,17 +129,17 @@
         <p><span class="ct-span" style="font-weight: 800; color: #6f6f6f;">Contact us to know more. </span></p>
 
         <div class="contact-div-btn">
-          <a href="#tel:123-456-7890" class="contact-btn">
-            <i class='bx bxl-whatsapp' style="font-size: 24px; margin-right: 1rem;"> </i>
-            +254 720 934 290
-          </a>
+          <a href="https://wa.me/254788641585" target="_blank" class="contact-btn">
+            <i class='bx bxl-whatsapp' style="font-size: 24px; margin-right: 1rem;"></i>
+            +254 788 641 585
+          </a>          
         </div>
       </section>
     </div>
 
     <div class="sect-2">
         <div class="sect-img-container">
-          <div class="sect-image"  style="background-image: url(assets/img/main/main.jpg)">
+          <div class="sect-image"  style="background-image: url(assets/img/main/softnovate-products.jpg)">
           </div>
 
           <p class="hidden-span-p">
@@ -197,9 +227,8 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
               <div class="icon"><i class='bx bxs-wallet-alt' ></i></div>
-              <h4 class="title"><a href="">Point Of Sale</a></h4>
-              <p class="description">Our POS systems offer services such as tracking inventory levels, calculateing totals, applies discounts, 
-                  and processes payments via cash, card, or mobile wallets.</p>
+              <h4 class="title"><a href="">IT Training</a></h4>
+              <p class="description">We offer trainings to our clients, we also offer software development courses such as programming to anyone interested to learn.</p>
           </div>
           </div>
       </div>
@@ -250,143 +279,13 @@
     </section>    
     <!-- End Services Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-
-        <div class="section-header">
-          <h2>Testimonials</h2>
-          <p>Hear Stories and Testimonies from our past and present clientelle on our work ethic and productivity</p>
-        </div>
-
-        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap" >
-                <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/okello.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>Otieno Okello</h3>
-                      <h4>Pharmacist &amp; Bussinessman</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                      Softnovate has truly transformed our pharmaceutical system through their innovative software automation solutions. 
-                      We therefore highly recommend it.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/fatuma.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>Fatuma Mubai</h3>
-                      <h4>Restaurant Owner</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                      SoftNovate really changed our approach to Restaurant operations, now by a click we can view past history sales. It was an amazing solutions so far, we didnt know we needed.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap" >
-                <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/man1.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>Paul Mwiti</h3>
-                      <h4>Store Owner</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    SoftNovate revolutionized our liquor store operations. We can now view sales histories effortlessly, making inventory management a breeze. This incredible solution was exactly what we didn't know we needed
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap" >
-                <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/pakshi.jpg" height="40px" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>Patel Kishna</h3>
-                      <h4>Director</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    SoftNovate significantly improved our school management system. Accessing student records and performance histories is now just a click away. This solution has been a game-changer, something we really appreciate
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/man2.jpg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
-                      <h3>Isaac & Kiptoo</h3>
-                      <h4>Entrepreneur</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    SoftNovate transformed our supermarket operations. Viewing past sales history is now incredibly easy, streamlining our restocking process. This solution has been fantastic, something we didn't know we needed.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="contact" style="padding-top: 10px;" >
       <div class="container">
 
         <div class="section-header" style="padding-bottom: 10px;">
-          <h2>Porfolio</h2>
-          <p> Scroll Patiently Scroll through our Portfolio and Mavel at our stunning designs & systems </p>
+          <h2>Products</h2>
+          <p> Scroll Patiently Scroll through our Portfolio and Marvel at our stunning products & systems </p>
           <!-- <h3> Click on the image to view the site entirely</h3> -->
         </div>
 
@@ -394,30 +293,47 @@
           <div class="col-lg-10 m-auto">
               <div class="book-table-img-slider" id="icon">
                   <div class="swiper-wrapper">
-                      <a href="assets/img/portfolio/P1.png" data-fancybox="table-slider"
-                          class="book-table-img back-img swiper-slide"
-                          style="background-image: url(assets/img/portfolio/P1.png)"></a>
-                      <a href="assets/img/portfolio/P2.png" data-fancybox="table-slider"
-                          class="book-table-img back-img swiper-slide"
-                          style="background-image: url(assets/img/portfolio/P2.png)"></a>
-                      <a href="assets/img/portfolio/P3.png" data-fancybox="table-slider"
-                          class="book-table-img back-img swiper-slide"
-                          style="background-image: url(assets/img/portfolio/P3.png)"></a>
-                      <a href="assets/img/portfolio/P4.png" data-fancybox="table-slider"
-                          class="book-table-img back-img swiper-slide"
-                          style="background-image: url(assets/img/portfolio/P4.png)"></a>
-                      <a href="assets/img/portfolio/P5.png" data-fancybox="table-slider"
-                          class="book-table-img back-img swiper-slide"
-                          style="background-image: url(assets/img/portfolio/P5.png)"></a>
-                      <a href="assets/img/portfolio/P6.png" data-fancybox="table-slider"
-                          class="book-table-img back-img swiper-slide"
-                          style="background-image: url(assets/img/portfolio/P6.png)"></a>
-                      <a href="assets/img/portfolio/P7.png" data-fancybox="table-slider"
-                          class="book-table-img back-img swiper-slide"
-                          style="background-image: url(assets/img/portfolio/P7.png)"></a>
-                      <a href="assets/img/portfolio/P8.png" data-fancybox="table-slider"
-                          class="book-table-img back-img swiper-slide"
-                          style="background-image: url(assets/img/portfolio/P9.png)"></a>
+                      <div class="swiper-slide">
+                        <a href="automotive-system.html" target="_blank" data-fancybox="table-slider" class="book-table-img back-img" style="background-image: url(assets/img/portfolio/automotive.jpg)"></a>
+                        <p class="portfolio-caption">Automotive Management System</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="hospital-system.html" target="_blank" data-fancybox="table-slider" class="book-table-img back-img" style="background-image: url(assets/img/portfolio/hospital.jpg)"></a>
+                        <p class="portfolio-caption">Hospital Management System</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="hotel-system.html" target="_blank" data-fancybox="table-slider" class="book-table-img back-img" style="background-image: url(assets/img/portfolio/hotel.jpg)"></a>
+                        <p class="portfolio-caption">Hotel Management System</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="inventory-system.html" target="_blank" data-fancybox="table-slider" class="book-table-img back-img" style="background-image: url(assets/img/portfolio/inventory.jpg)"></a>
+                        <p class="portfolio-caption">Inventory Management System</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="legal-system.html" target="_blank" data-fancybox="table-slider" class="book-table-img back-img" style="background-image: url(assets/img/portfolio/legal.jpg)"></a>
+                        <p class="portfolio-caption">Legal Management System</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="pharmacy-system.html" target="_blank" data-fancybox="table-slider" class="book-table-img back-img" style="background-image: url(assets/img/portfolio/pharmacy.jpg)"></a>
+                        <p class="portfolio-caption">Pharmacy Management System</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="pos-system.html" target="_blank" data-fancybox="table-slider" class="book-table-img back-img" style="background-image: url(assets/img/portfolio/pos.png)"></a>
+                        <p class="portfolio-caption">Point of Sales System</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="rental-system.html" target="_blank" data-fancybox="table-slider" class="book-table-img back-img" style="background-image: url(assets/img/portfolio/rental.jpg)"></a>
+                        <p class="portfolio-caption">Rental Management System</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="school-system.html" target="_blank" data-fancybox="table-slider" class="book-table-img back-img" style="background-image: url(assets/img/portfolio/school.jpg)"></a>
+                        <p class="portfolio-caption">School Management System</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="learning-system.html" target="_blank" data-fancybox="table-slider" class="book-table-img back-img" style="background-image: url(assets/img/portfolio/web.jpg)"></a>
+                        <p class="portfolio-caption">Learning Management System</p>
+                      </div>
+                     
                   </div>
 
                   <div class="swiper-button-wp">
@@ -437,6 +353,136 @@
     </section>
     <!-- End Portfolio Section -->
 
+        <!-- ======= Testimonials Section ======= -->
+        <section id="testimonials" class="testimonials">
+          <div class="container">
+    
+            <div class="section-header">
+              <h2>Testimonials</h2>
+              <p>Hear Stories and Testimonies from our past and present clientelle on our work ethic and productivity</p>
+            </div>
+    
+            <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+              <div class="swiper-wrapper">
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap" >
+                    <div class="testimonial-item">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/testimonials/okello.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Otieno Okello</h3>
+                          <h4>Pharmacist &amp; Bussinessman</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                          Softnovate has truly transformed our pharmaceutical system through their innovative software automation solutions. 
+                          We therefore highly recommend it.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap">
+                    <div class="testimonial-item">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/testimonials/fatuma.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Fatuma Mubai</h3>
+                          <h4>Restaurant Owner</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                          SoftNovate really changed our approach to Restaurant operations, now by a click we can view past history sales. It was an amazing solution for us.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap" >
+                    <div class="testimonial-item">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/testimonials/man1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Paul Mwiti</h3>
+                          <h4>Store Owner</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        SoftNovate revolutionized our liquor store operations. We can now view sales histories effortlessly, making inventory management a breeze. This incredible solution was exactly what we didn't know we needed
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap" >
+                    <div class="testimonial-item">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/testimonials/pakshi.jpg" height="40px" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Patel Kishna</h3>
+                          <h4>Director</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        SoftNovate significantly improved our school management system. Accessing student records and performance histories is now just a click away. This solution has been a game-changer, something we really appreciate
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap">
+                    <div class="testimonial-item">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/testimonials/man2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Isaac & Kiptoo</h3>
+                          <h4>Entrepreneur</h4>
+                          <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        SoftNovate transformed our supermarket operations. Viewing past sales history is now incredibly easy, streamlining our restocking process. This solution has been fantastic, something we didn't know we needed.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+    
+          </div>
+        </section><!-- End Testimonials Section -->
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -448,21 +494,21 @@
           <a href="index.html" class="logo d-flex align-items-center">
             <span>SoftNovate </span>
           </a>
-          <p>A tech-based company that offers software and hardware services from android Development to school and enterprise automation systems .</p>
+          <p>A Tech-based Company that offers software and hardware services from Software Development to School and Enterprise Automation Systems .</p>
           <div class="social-links d-flex mt-4">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/softnovate_" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" target="_blank"  class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/softnovatesolutions?igsh=ZHo4YnZ0NmlhazFm" target="_blank"  class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" target="_blank"  class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Products</a></li>
             <li><a href="#">Terms of service</a></li>
             <li><a href="#">Privacy policy</a></li>
           </ul>
@@ -471,11 +517,11 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Android Development</a></li>
-            <li><a href="#">Bussiness Systems</a></li>
-            <li><a href="#">Poinf Of Sales Systems</a></li>
+            <li><a href="#services">Web Design</a></li>
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">Android Development</a></li>
+            <li><a href="#services">Business Automation</a></li>
+            <li><a href="#services">IT Training</a></li>
           </ul>
         </div>
 
@@ -487,7 +533,7 @@
             Nairobi, Kenya <br><br>
             <strong>Phone:</strong> +254 720 934 290<br>
             <strong>Phone:</strong> +254 729 110 630<br>
-            <strong>Email:</strong> softnovate-solutions@gmail.com<br>
+            <strong>Email:</strong> <a href="mailto:softnovate-solutions@gmail.com">softnovate-solutions@gmail.com</a><br>
           </p>
 
         </div>
