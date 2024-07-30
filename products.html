@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Softnovate Solutions Ltd</title>
+    <title>Softnovate Products</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <link
@@ -94,6 +94,15 @@
         background-position: center;
         display: block;
       }
+
+      .breadcrumb {
+          font-size: 1.2rem;
+          padding-top: 1rem;
+        }
+
+        .main-section{
+          padding-top: 0rem;
+        }
     </style>
   </head>
 
@@ -152,9 +161,10 @@
             <li><a href="index.html#hero">Home</a></li>
             <li><a href="index.html#about">About</a></li>
             <li><a href="index.html#services">Services</a></li>
-            <li><a href="products.html#portfolio">Products</a></li>
+            
             <li><a href="index.html#gallery">Gallery</a></li>
             <li><a href="index.html#testimonials">Reviews</a></li>
+            <li><a href="products.html#portfolio">Products</a></li>
           </ul>
         </nav>
         <!-- .navbar -->
@@ -171,231 +181,32 @@
     </header>
     <!-- End Header -->
 
+    <!-- breadcrumb -->
+    <nav aria-label="breadcrumb" style="background-color: #f8f9fa; padding: 10px 0;">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Products</li>
+        </ol>
+      </div>
+    </nav>
+
     <main id="main" style="background-color: #f8f9fa">
 
       <!-- PORTFOLIO -->
-      <section id="portfolio" class="full-height px-lg-5">
+      <section id="portfolio" class="full-height px-lg-5 main-section">
         <div class="container">
-          <div class="row gy-4">
-            <div class="col-md-6" data-aos="fade-up">
-              <div class="card-custom rounded-4 bg-base shadow-effect">
-                <div class="card-custom-image rounded-4">
-                  <img
-                    class="rounded-4"
-                    src="./assets/img/portfolio/hospital.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>Hospital Management System (HMS)</h4>
-                  <p>
-                    Patient Registration and Booking, Doctors, Treatment,
-                    Payments integrated, Pharmacy & Drugs store, Laboratory and
-                    Imaging, Dental, Physiotherapy, Reports.
-                  </p>
-                  <a href="hospital-system.html" class="link-custom">More</a>
-                </div>
-              </div>
-            </div>
+          <div id="portfolio-items" class="row gy-4" >
+            <!-- Portfolio items-->
+          </div>
 
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="card-custom rounded-4 bg-base shadow-effect">
-                <div class="card-custom-image rounded-4">
-                  <img
-                    class="rounded-4"
-                    src="./assets/img/portfolio/pos.png"
-                    alt=""
-                  />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>Point of Sales (POS)</h4>
-                  <p>
-                    Products Registration, Inventory Management, Store
-                    Promotions and Sales, User Accounts and Varying Levels of
-                    Access, Purchases, Supplies information.
-                  </p>
-                  <a href="pos-system.html" class="link-custom">More</a>
-                </div>
-              </div>
-            </div>
+          <div id="pagination" class="mt-4 text-center">
+            <!-- Pagination controls-->
+          </div>
 
-            <div class="col-md-6" data-aos="fade-up">
-              <div class="card-custom rounded-4 bg-base shadow-effect">
-                <div class="card-custom-image rounded-4">
-                  <img
-                    class="rounded-4"
-                    src="./assets/img/portfolio/pharmacy.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>Pharmacy Management System</h4>
-                  <p>
-                    Prescription Management, Inventory Control, Point of Sale
-                    (POS) Integration, Supplier Management, Billing and
-                    Invoicing, Reporting and Analytics, User Access and
-                    Security.
-                  </p>
-                  <a href="pharmacy-system.html" class="link-custom">More</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="fade-up">
-              <div class="card-custom rounded-4 bg-base shadow-effect">
-                <div class="card-custom-image rounded-4">
-                  <img
-                    class="rounded-4"
-                    src="./assets/img/portfolio/school.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>School Management System</h4>
-                  <p>
-                    Student Information Management, Attendance Tracking, Grade
-                    and Exam Management, Timetable Scheduling, Fee Management,
-                    Staff Information Management, Reporting and Analytics.
-                  </p>
-                  <a href="school-system.html" class="link-custom">More</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="fade-up">
-              <div class="card-custom rounded-4 bg-base shadow-effect">
-                <div class="card-custom-image rounded-4">
-                  <img
-                    class="rounded-4"
-                    src="./assets/img/portfolio/inventory.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>Inventory Management System</h4>
-                  <p>
-                    Real-time inventory tracking, Automated stock alerts,
-                    Barcode scanning, Order management, Inventory reporting and
-                    analytics, Supplier management, Batch and expiry date
-                    tracking, User access controls and permissions.
-                  </p>
-                  <a href="inventory-system.html" class="link-custom">More</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="fade-up">
-              <div class="card-custom rounded-4 bg-base shadow-effect">
-                <div class="card-custom-image rounded-4">
-                  <img
-                    class="rounded-4"
-                    src="./assets/img/portfolio/rental.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>Rental Management System</h4>
-                  <p>
-                    Tenant and lease tracking, online rent payment processing,
-                    maintenance request management, vacancy advertising,
-                    property accounting and financial reporting, document
-                    storage and management.
-                  </p>
-                  <a href="rental-system.html" class="link-custom">More</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="fade-up">
-              <div class="card-custom rounded-4 bg-base shadow-effect">
-                <div class="card-custom-image rounded-4">
-                  <img
-                    class="rounded-4"
-                    src="./assets/img/portfolio/hotel.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>Hotel Management System</h4>
-                  <p>
-                    Room booking and reservation management, guest check-in and
-                    check-out processing, billing and invoicing, housekeeping
-                    management, inventory and stock control, reporting and
-                    analytics.
-                  </p>
-                  <a href="hotel-system.html" class="link-custom">More</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="fade-up">
-              <div class="card-custom rounded-4 bg-base shadow-effect">
-                <div class="card-custom-image rounded-4">
-                  <img
-                    class="rounded-4"
-                    src="./assets/img/portfolio/legal.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>Legal Management System</h4>
-                  <p>
-                    Document management, case management, time tracking, billing
-                    and invoicing, task and workflow automation, client
-                    communication tools, legal research integration, reporting
-                    and analytics.
-                  </p>
-                  <a href="legal-system.html" class="link-custom">More</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="fade-up">
-              <div class="card-custom rounded-4 bg-base shadow-effect">
-                <div class="card-custom-image rounded-4">
-                  <img
-                    class="rounded-4"
-                    src="./assets/img/portfolio/automotive.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>Auto Shop Management System</h4>
-                  <p>
-                    Inventory management, appointment scheduling, repair order
-                    tracking, work order management, billing and invoicing,
-                    employee and technician management, reporting and analytics.
-                  </p>
-                  <a href="automotive-system.html" class="link-custom">More</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="card-custom rounded-4 bg-base shadow-effect">
-                <div class="card-custom-image rounded-4">
-                  <img
-                    class="rounded-4"
-                    src="./assets/img/portfolio/web.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="card-custom-content p-4">
-                  <h4>Learning Management System</h4>
-                  <p>
-                    Course creation, assessment tools, discussion forums,
-                    content management, learner analytics, collaboration spaces,
-                    and integration capabilities for seamless educational
-                    experiences.
-                  </p>
-                  <a href="learning-system.html" class="link-custom">More</a>
-                </div>
-              </div>
-            </div>
-
-            
-
-            <div class="section-header">
+          <div id="portfolio-items" class="row gy-4" style="margin-top: 1rem;">
+            <!-- More Items-->
+            <div class="section-header" >
               <h2>More Products</h2>
               <p>Explore more of our products that meet your needs</p>
             </div>
@@ -553,6 +364,176 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const portfolioItems = [
+          //  portfolio items here as JavaScript objects
+          {
+            title: "Hospital Management System (HMS)",
+            description: "Patient Registration and Booking, Doctors, Treatment, Payments integrated, Pharmacy & Drugs store, Laboratory and Imaging, Dental, Physiotherapy, Reports.",
+            image: "./assets/img/portfolio/hospital.jpg",
+            link: "hospital-system.html"
+          },
+          {
+            title: "Point of Sales (POS)",
+            description: "Products Registration, Inventory Management, Store Promotions and Sales, User Accounts and Varying Levels of Access, Purchases, Supplies information.",
+            image: "./assets/img/portfolio/pos.png",
+            link: "pos-system.html"
+          },
+          {
+            title: "Pharmacy Management System",
+            description: "Prescription Management, Inventory Control, Point of Sale (POS) Integration, Supplier Management, Billing and Invoicing, Reporting and Analytics, User Access and Security.",
+            image: "./assets/img/portfolio/pharmacy.jpg",
+            link: "pharmacy-system.html"
+          },
+          {
+            title: "School Management System",
+            description: "Student Information Management, Attendance Tracking, Grade and Exam Management, Timetable Scheduling, Fee Management, Staff Information Management, Reporting and Analytics.",
+            image: "./assets/img/portfolio/school.jpg",
+            link: "school-system.html"
+          },
+          {
+            title: "Inventory Management System",
+            description: "Real-time inventory tracking, Automated stock alerts, Barcode scanning, Order management, Inventory reporting and analytics, Supplier management, Batch and expiry date tracking, User access controls and permissions.",
+            image: "./assets/img/portfolio/inventory.jpg",
+            link: "inventory-system.html"
+          },
+          {
+            title: "Rental Management System",
+            description: "Tenant and lease tracking, online rent payment processing, maintenance request management, vacancy advertising, property accounting and financial reporting, document storage and management.",
+            image: "./assets/img/portfolio/rental.jpg",
+            link: "rental-system.html"
+          },
+          {
+            title: "Hotel Management System",
+            description: "Room booking and reservation management, guest check-in and check-out processing, billing and invoicing, housekeeping management, inventory and stock control, reporting and analytics.",
+            image: "./assets/img/portfolio/hotel.jpg",
+            link: "hotel-system.html"
+          },
+          {
+            title: "Legal Management System",
+            description: "Document management, case management, time tracking, billing and invoicing, task and workflow automation, client communication tools, legal research integration, reporting and analytics.",
+            image: "./assets/img/portfolio/legal.jpg",
+            link: "legal-system.html"
+          },
+          {
+            title: "Auto Shop Management System",
+            description: "Inventory management, appointment scheduling, repair order tracking, work order management, billing and invoicing, employee and technician management, reporting and analytics.",
+            image: "./assets/img/portfolio/automotive.jpg",
+            link: "automotive-system.html"
+          },
+          {
+            title: "Learning Management System",
+            description: "Course creation, assessment tools, discussion forums, content management, learner analytics, collaboration spaces, and integration capabilities for seamless educational experiences.",
+            image: "./assets/img/portfolio/web.jpg",
+            link: "learning-system.html"
+          }            
+        ];
+    
+        const itemsPerPage = 4;
+        let currentPage = 1;
+    
+        function renderPortfolioItems(page) {
+          const startIndex = (page - 1) * itemsPerPage;
+          const endIndex = startIndex + itemsPerPage;
+          const itemsToShow = portfolioItems.slice(startIndex, endIndex);
+    
+          const portfolioContainer = document.getElementById('portfolio-items');
+          portfolioContainer.innerHTML = '';
+    
+          itemsToShow.forEach(item => {
+            const itemHTML = `
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img class="rounded-4" src="${item.image}" alt="" />
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>${item.title}</h4>
+                    <p>${item.description}</p>
+                    <a href="${item.link}" class="link-custom">More</a>
+                  </div>
+                </div>
+              </div>
+            `;
+            portfolioContainer.innerHTML += itemHTML;
+          });
+    
+          renderPagination();
+        }
+
+        function renderPagination() {
+        const totalPages = Math.ceil(portfolioItems.length / itemsPerPage);
+        const paginationContainer = document.getElementById('pagination');
+        paginationContainer.innerHTML = '';
+
+        // Prev button
+        const prevButton = document.createElement('button');
+        prevButton.textContent = 'Prev';
+        prevButton.classList.add('btn', 'btn-pagination', 'mx-1');
+        prevButton.disabled = currentPage === 1;
+        prevButton.addEventListener('click', () => {
+          if (currentPage > 1) {
+            currentPage--;
+            renderPortfolioItems(currentPage);
+          }
+        });
+        paginationContainer.appendChild(prevButton);
+
+        // Numbered buttons
+        const maxVisibleButtons = 3;
+        let startPage = Math.max(1, currentPage - Math.floor(maxVisibleButtons / 2));
+        let endPage = Math.min(totalPages, startPage + maxVisibleButtons - 1);
+
+        if (endPage - startPage + 1 < maxVisibleButtons) {
+          startPage = Math.max(1, endPage - maxVisibleButtons + 1);
+        }
+
+        for (let i = startPage; i <= endPage; i++) {
+          const button = document.createElement('button');
+          button.textContent = i;
+          button.classList.add('btn', 'btn-pagination', 'mx-1');
+          if (i === currentPage) {
+            button.classList.add('active');
+          }
+          button.addEventListener('click', () => {
+            currentPage = i;
+            renderPortfolioItems(currentPage);
+          });
+          paginationContainer.appendChild(button);
+        }
+
+        // Next button
+        const nextButton = document.createElement('button');
+        nextButton.textContent = 'Next';
+        nextButton.classList.add('btn', 'btn-pagination', 'mx-1');
+        nextButton.disabled = currentPage === totalPages;
+        nextButton.addEventListener('click', () => {
+          if (currentPage < totalPages) {
+            currentPage++;
+            renderPortfolioItems(currentPage);
+          }
+        });
+        paginationContainer.appendChild(nextButton);
+      }
+    
+        // Initial render
+        renderPortfolioItems(currentPage);
+
+   // Breadcrumb functionality
+    function updateBreadcrumb() {
+      const breadcrumbItems = document.querySelectorAll('.breadcrumb-item');
+      const currentPage = document.title;
+      
+      if (breadcrumbItems.length > 1) {
+        breadcrumbItems[1].textContent = currentPage;
+      }
+    }
+
+     updateBreadcrumb();
+      });
+    </script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
